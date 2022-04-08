@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.col-12{
+    width: 100%;
+}
+.col-6{
+    width: 50%;
+}
+.col-4{
+    width:33.33%;
+}
+.col-2{
+    width: 16.6%;
+}
+.col-3{
+    width: 25%;
+}
+.logo-block{
+
+}
+.logo-block img{
+
+padding: 20px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li {
+    margin-right: 20px;
+    line-height: 55px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-right-items{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.nav-right-items a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    background-color: blue;
+    border-radius: 10px;
+}
+header{
+    
+    padding: 20px;
+}
+.section-item{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.section-item .section-item-title-position{
+text-align: center;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+background-color: royalblue;
+position: absolute;
+width: 100%;
+height: 100px;
+transition: 0.3s linear;
+}
+.section-item:hover .section-item-title-position{ 
+    height: 200px;   
+}
+.section-item:hover .social-media-links .links li a{
+    color: white;
+}
+.section-item:hover img{
+    transform: translateY(20px);
+}
+
+.section-item .section-item-title-position .title{
+    font-size: 20px;
+    line-height: 50px;
+}
+.section-item .section-item-title-position .position{
+    font-size: 16px;
+}
+.section-item-content{
+    padding: 20px;
+    padding-bottom: 100px;
+}
+.social-media-links .links{
+    /* display: flex; */
+    padding-top: 100px;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 30px;
+    /* z-index: 0; */
+}
+.img-block{
+    border-radius: 50%;
+}
+img{
+    transition: 0.3s linear;
+}
+.img-block img{
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 120px;
+    bottom: -50px;
+}
