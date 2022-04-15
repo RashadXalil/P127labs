@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom-navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+}
+.custom-navbar .logo-block h1{
+    color: white;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.nav-links li{
+    list-style: none;
+    margin-right: 20px;
+}
+.wrapper{
+    padding-top: 50px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    object-fit: cover;
+}
+.wrapper::after{
+    content: "";
+    width: 100vw;
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.395);
+    position: fixed;
+    top: 0;
+    z-index: -1     ;
+}
+.wrapper-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+}
+.title{
+    color: white;
+}
+.title h3{   
+    font-size: 50px;
+}
+.divader{
+    width: 30px;
+    height: 5px;
+    background-color: orangered;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.desc{
+
+}
+.desc p{
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.section-link{
+
+}
+.section-link a{
+    display: block;
+    background-color: orangered;
+    width: 210px;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.myc{
+    display: flex;
+    justify-content: center;
+}

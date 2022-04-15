@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.divider{
+    width: 50px;
+    height: 5px;
+    background-color: orangered;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.divider-block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-card{
+    box-shadow: rgba(198, 118, 13, 0.881) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.custom-card{
+    box-shadow: rgba(198, 118, 13, 0.881) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.custom-card .card-icon{
+    color: orangered;
+    font-size: 40px;
+}
