@@ -1,0 +1,20 @@
+// .acc-body{
+//     height: 0px;
+//     padding: 10px;
+//     border: 1px solid black;
+//     transition: 0.3s linear;
+//     opacity: 0;
+//     visibility: hidden;
+// }
+// .active{
+//     height: 100px;
+//     opacity: 1;
+//     visibility: visible;
+// }
+img{
+    width: 500px;
+    display: none;
+}
+.active{
+    display: block;
+}
